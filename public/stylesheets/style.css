@@ -105,7 +105,7 @@ section {
 
 #profile_pic {
   float: left;
-  height: 80%;
+  height: 100%;
   width: auto;
   max-width: 100%;
   margin: 10px;
@@ -116,6 +116,7 @@ section {
 .about_paragraph {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  line-height: 1.6;
   padding-top: 150px;
   padding-left: 10px;
 }
