@@ -22,11 +22,11 @@ a {
   justify-content: space-between;
   align-items: baseline;
   background-color: var(--background-color);
-  padding: 80px 180px;
+  padding: 60px 120px;
 }
 
 .navbar_name {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: lighter;
   color: var(--text-color);
 }
@@ -111,5 +111,5 @@ section {
 }
 
 .about_paragraph {
-  
+
 }
