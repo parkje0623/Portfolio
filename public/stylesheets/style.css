@@ -22,7 +22,7 @@ a {
   justify-content: space-between;
   align-items: baseline;
   background-color: var(--background-color);
-  padding: 60px 120px;
+  padding: 40px 80px;
 }
 
 .navbar_name {
@@ -107,7 +107,7 @@ section {
 #profile_pic {
   height: 60%;
   width: 40%;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .about_paragraph {
