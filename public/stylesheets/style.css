@@ -1,0 +1,115 @@
+:root {
+  --text-color: #000000;
+  --background-color: #FFFFFF;
+  --icon-color: #FF7F50;
+}
+
+body {
+  margin: 0;
+  font-family: "Piazzolla";
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: var(--background-color);
+  padding: 80px 180px;
+}
+
+.navbar_name {
+  font-size: 48px;
+  font-weight: lighter;
+  color: var(--text-color);
+}
+
+.navbar_name i {
+  color: var(--icon-color);
+}
+
+.navbar_menu {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+  padding-left: 0;
+}
+
+#aboutBtn {
+  opacity: 1;
+}
+
+#expBtn, #portBtn, #contactBtn {
+  opacity: 0.5;
+}
+
+.navbar_menu li {
+  padding: 8px 28px;
+}
+
+.navbar_menu li:hover {
+  background-color: var(--icon-color);
+  border-radius: 4px;
+}
+
+.navbar_menu_icon {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: var(--icon-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .navbar_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar_menu.active {
+    display: flex;
+  }
+
+  .navbar_menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar_menu_icon {
+    display: block;
+  }
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#profile_pic {
+  height: 60%;
+  width: 40%;
+  padding-top: 50px;
+}
+
+.about_paragraph {
+  
+}

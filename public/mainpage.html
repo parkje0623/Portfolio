@@ -2,9 +2,47 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>THIS IS THE MAIN PAGE</title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@200&display=swap" rel="stylesheet">
+    <title>Jieung Park Portfolio</title>
+    <!-- Kit code for icons -->
+    <script src="https://kit.fontawesome.com/330d76a669.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer> </script>
   </head>
   <body>
+    <nav class="navbar">
+      <div class="navbar_name">
+        <i class="fas fa-code-branch"></i>
+        <a href="#">Jieung Park</a>
+      </div>
 
+      <div class="navbar_menu">
+        <li id="aboutBtn"><a href="#about" onclick="clickAbout();">About</a></li>
+        <li id="expBtn"><a href="#experience" onclick="clickExp();">Experience</a></li>
+        <li id="portBtn"><a href="#portfolio" onclick="clickPort();">Portfolio</a></li>
+        <li id="contactBtn"><a href="#contact" onclick="clickContact();">Contact</a></li>
+      </div>
+
+      <a href="#" class="navbar_menu_icon">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+
+    <section id="about">
+      <img id="profile_pic" src="TestPhoto.jpg" alt="profile"/>
+      <p class="about_paragraph">My name is Jieung Park.dasdasdasdadasd</p>
+    </section>
+
+    <section id="experience">
+      <h2>EXPERIENCE</h2>
+    </section>
+
+    <section id="portfolio">
+      <h2>PORTFOLIO</h2>
+    </section>
+
+    <section id="contact">
+      <h2>CONTACT</h2>
+    </section>
   </body>
 </html>
