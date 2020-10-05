@@ -4,6 +4,10 @@
   --icon-color: #FF7F50;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Piazzolla";
@@ -138,14 +142,10 @@ h1 {
   float: left;
 }
 
-.about_paragraph.active {
-  transition: 1s ease;
-}
-
 /* Scroll Trigger */
 .visible, .invisible {
   opacity: 0.0;
-  transition: opacity 2s ease;
+  transition: opacity 3s ease;
 }
 .visible {
   opacity: 1.0;
