@@ -85,7 +85,7 @@ section { /* Size of each sections */
   color: var(--icon-color);
 }
 
-@media screen and (max-width: 1000px) { /* When Scrren reduced in width size */
+@media screen and (max-width: 800px) { /* When Scrren reduced in width size */
   .navbar {
     flex-direction: column;
     align-items: flex-start;

@@ -2,6 +2,7 @@ const menuIcon = document.querySelector('.navbar_menu_icon');
 const name = document.querySelector('.navbar_name');
 const menu = document.querySelector('.navbar_menu');
 
+const navbar = document.getElementById('navbartop');
 const about = document.getElementById('aboutBtn');
 const port = document.getElementById('portBtn');
 const contact = document.getElementById('contactBtn');
@@ -16,6 +17,16 @@ trigger.add('[data-trigger]', {
   },
   addHeight: true
 });
+
+/* When scroll outside of navbar, make top navbar little transparent */
+window.onscroll = function() {
+  if (window.pageYOffset > 30) {
+    navbar.style.opacity = 0.9;
+  } else {
+    navbar.style.backgroundColor  = "#FFFFFF";
+    navbar.style.opacity = 1;
+  }
+}
 
 /* When menu icon clicked, show entire menu list */
 menuIcon.addEventListener('click', () => {
