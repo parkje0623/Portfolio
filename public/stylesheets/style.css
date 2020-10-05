@@ -119,6 +119,7 @@ section {
   line-height: 1.6;
   padding-top: 150px;
   padding-left: 10px;
+  z-index: -1;
 }
 
 h1 {
@@ -135,4 +136,17 @@ h1 {
 .hobby_list {
   margin-top: 0;
   float: left;
+}
+
+.about_paragraph.active {
+  transition: 1s ease;
+}
+
+/* Scroll Trigger */
+.visible, .invisible {
+  opacity: 0.0;
+  transition: opacity 2s ease;
+}
+.visible {
+  opacity: 1.0;
 }

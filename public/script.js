@@ -7,6 +7,16 @@ const exp = document.getElementById('expBtn');
 const port = document.getElementById('portBtn');
 const contact = document.getElementById('contactBtn');
 
+var trigger = new ScrollTrigger.default();
+trigger.add('[data-trigger]', {
+  once: false,
+  offset: {
+    x: 0,
+    y: -300
+  },
+  addHeight: true
+});
+
 menuIcon.addEventListener('click', () => {
   name.classList.toggle('active');
   menu.classList.toggle('active');
@@ -17,6 +27,7 @@ function clickAbout() {
   exp.style.opacity = "0.5";
   port.style.opacity = "0.5";
   contact.style.opacity = "0.5";
+  document.querySelector('.about_paragraph').classList.toggle('active');
 }
 
 function clickExp() {

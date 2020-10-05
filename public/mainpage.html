@@ -8,6 +8,7 @@
     <title>Jieung Park Portfolio</title>
     <!-- Kit code for icons -->
     <script src="https://kit.fontawesome.com/330d76a669.js" crossorigin="anonymous"></script>
+    <script src="./ScrollTrigger.min.js"></script>
     <script src="./script.js" defer> </script>
   </head>
   <body>
@@ -31,16 +32,16 @@
 
     <section id="about">
       <div class="about_paragraph">
-        <img id="profile_pic" src="TestProfile.jpg" alt="profile"/>
-        <h1>ABOUT</h1>
-        <p>
+        <img id="profile_pic" src="TestProfile.jpg" alt="profile" data-trigger/>
+        <h1 data-trigger>ABOUT</h1>
+        <p data-trigger>
           My name is Jieung Park. I am currently studying at Simon Fraser University completing Bachelor of Science degree in Computing Science.
           My primary technologies are Java and C, which mainly focus on back-end development of an application.
           Lately, I have been studying HTML/CSS/Javascript as well because I am also interested in front-end development that can be used to build websites or web application.
-          Outside of languages mentioned, I am also familiar with Python, Node.js and SQL. <br>
+          Outside of languages mentioned, I am also familiar with Python, Node.js and SQL. <br><br>
           These are some of my interests and hobbies:
         </p>
-        <ul class="hobby_list">
+        <ul class="hobby_list" data-trigger>
           <li id="github"><a href="https://github.com/parkje0623">Creating Applications and Websites (github)</a></li>
           <li>Listening to music</li>
           <li>Video games</li>
