@@ -30,6 +30,19 @@ section { /* Size of each sections */
   display: flex;
 }
 
+img{
+  max-width: 500px;
+  max-height: 500px;
+  filter: brightness(90%);
+  padding: 20px;
+}
+
+img::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .navbar { /* Entire top bar (name + menu) */
   display: flex;
   position: fixed;
@@ -123,19 +136,6 @@ section { /* Size of each sections */
   /* May extend up to 80~100 depends on how much things I have to write */
 }
 
-img {
-  max-width: 500px;
-  max-height: 500px;
-  filter: brightness(90%);
-  padding: 20px;
-}
-
-img::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .about_paragraph, .portfolio_paragraph, .contact_paragraph { /* Entire About section */
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -156,6 +156,12 @@ img::after {
 }
 
 #portfolio_title {
+  text-align: center;
+}
+
+.images {
+  vertical-align: middle;
+  display: table-cell;
   text-align: center;
 }
 
