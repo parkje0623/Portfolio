@@ -19,9 +19,9 @@
       </div>
 
       <div class="navbar_menu">
-        <li id="aboutBtn"><a href="#about" onclick="clickAbout();">About</a></li>
-        <li id="portBtn"><a href="#portfolio" onclick="clickPort();">Portfolio</a></li>
-        <li id="contactBtn"><a href="#contact" onclick="clickContact();">Contact</a></li>
+        <li id="aboutBtn"><a href="#about_section" onclick="clickAbout();">About</a></li>
+        <li id="portBtn"><a href="#portfolio_section" onclick="clickPort();">Portfolio</a></li>
+        <li id="contactBtn"><a href="#contact_section" onclick="clickContact();">Contact</a></li>
       </div>
 
       <a href="javascript:void()" class="navbar_menu_icon">
@@ -29,7 +29,7 @@
       </a>
     </nav>
 
-    <section id="about">
+    <section id="about_section">
       <div class="about_paragraph">
         <img id="profile_pic" src="TestProfile.jpg" alt="profile" data-trigger/>
         <h1 data-trigger>ABOUT</h1>
@@ -53,48 +53,54 @@
       </div>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio_section">
       <div class="images">
         <h1 id="portfolio_title" data-trigger>PORTFOLIO</h1>
         <div class="android" data-trigger>
           <img id="android_pic" src="AndroidApp.jpg" alt="AndroidApp"/>
           <div class="overlay">
-            <div class="text">Hello World</div>
+            <div class="android_text">Android Studio Application</div>
           </div>
         </div>
 
         <div class="backpack" data-trigger>
           <img id="sfu_pic" src="SFU-Backpack.jpg" alt="Sfu_backpack"/>
+          <div class="overlay">
+            <div class="backpack_text">SFU-Backpack</div>
+          </div>
         </div>
 
         <div class="portfolio" data-trigger>
           <img id="portfolio_pic" src="Portfolio.jpg" alt="Portfolio"/>
+          <div class="overlay">
+            <div class="portfolio_text">This Portfolio Website</div>
+          </div>
         </div>
 
         <div class="puzzle" data-trigger>
           <img id="puzzle_pic" src="PuzzleGame.jpg" alt="PuzzleGame"/>
+          <div class="overlay">
+            <div class="puzzle_text">Puzzle Game</div>
+          </div>
         </div>
 
         <div class="chat" data-trigger>
           <img id="chat_pic" src="SimpleTalk.jpg" alt="SimpleChat"/>
+          <div class="overlay">
+            <div class="chat_text">Simple Chat Application</div>
+          </div>
         </div>
 
         <div class="maze" data-trigger>
           <img id="maze_pic" src="MazeGame.jpg" alt="MazeGame"/>
+          <div class="overlay">
+            <div class="maze_text">Maze Game</div>
+          </div>
         </div>
       </div>
-      <p data-trigger>
-        Public: <br>
-          This Portfolio Website <br>
-          Android Studio PassNote <br>
-          Puzzle Game <br>
-          SFU-Backpack <br><br>
-        Non-public: <br>
-          CMPT 300 Chat <br>
-          Maze Game <br>
     </section>
 
-    <section id="contact">
+    <section id="contact_section">
       <div class="contact_paragraph">
         <h1 data-trigger>CONTACT</h1>
         <p data-trigger>
