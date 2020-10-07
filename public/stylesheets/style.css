@@ -25,7 +25,7 @@ a { /* navbar_menu (about, exp, ...) */
 }
 
 section { /* Size of each sections */
-  height: 100vh;
+  height: auto;
   width: 95vw;
   display: flex;
 }
@@ -141,7 +141,7 @@ img::after {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-left: 10px;
   z-index: -1;
 }
