@@ -169,6 +169,7 @@ img {
   background-color: #C0C0C0;
   position: relative;
   width: auto;
+  z-index: -1;
 }
 
 .overlay {
