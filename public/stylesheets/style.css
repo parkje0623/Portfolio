@@ -32,7 +32,7 @@ section { /* Size of each sections */
 
 img{
   max-width: 500px;
-  max-height: 500px;
+  max-height: 700px;
   filter: brightness(90%);
   padding: 20px;
 }
