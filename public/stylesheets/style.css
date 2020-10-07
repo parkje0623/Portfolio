@@ -30,7 +30,7 @@ section { /* Size of each sections */
   display: flex;
 }
 
-img{
+img {
   max-width: 500px;
   height: 350px;
   max-height: 350px;
@@ -160,19 +160,21 @@ img{
   text-align: center;
 }
 
-.images .para, .para2 {
+.images .android, .backpack, .puzzle, .maze, .portfolio, .chat {
   display: inline-block;
 }
 
-.para {
+.android, .backpack, .puzzle, .maze, .portfolio, .chat {
+  margin: 10px;
+  background-color: #C0C0C0;
   position: relative;
   width: auto;
 }
+
 .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
   background-color: #008CBA;
   overflow: hidden;
   width: 0;
@@ -180,12 +182,10 @@ img{
   transition: .5s ease;
 }
 /* Image hovers, all images here */
-.para:hover .overlay{
+.android:hover .overlay{
   width: 100%;
 }
-.para2:hover {
-  filter: brightness(50%);
-}
+
 /* Scroll Trigger */
 .visible, .invisible {
   opacity: 0.0;
