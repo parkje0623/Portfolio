@@ -123,6 +123,12 @@ section { /* Size of each sections */
   /* May extend up to 80~100 depends on how much things I have to write */
 }
 
+img {
+  max-width: 1000px;
+  max_height: 1000px;
+  filter: brightness(90%);
+}
+
 .about_paragraph, .portfolio_paragraph, .contact_paragraph { /* Entire About section */
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -140,6 +146,10 @@ section { /* Size of each sections */
 .hobby_list { /* List of hobbies in About section */
   margin-top: 0;
   float: left;
+}
+
+#portfolio_title {
+  text-align: center;
 }
 
 /* Scroll Trigger */
