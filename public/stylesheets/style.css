@@ -37,6 +37,18 @@ img {
   filter: brightness(90%);
 }
 
+/* Rainbow effect on Name */
+@keyframes rainbowName {
+  0% { color: #ff2a2a; }
+  15% { color: #ff7a2a; }
+  30% { color: #ffc52a }
+  45% { color: #43ff2a; }
+  60% { color: #2a89ff; }
+  75% { color: #202082; }
+  90% { color: #6b2aff; }
+  100% { color: #e82aff; }
+}
+
 .navbar { /* Entire top bar (name + menu) */
   display: flex;
   position: fixed;
@@ -53,6 +65,12 @@ img {
   font-size: 42px;
   font-weight: lighter;
   color: var(--text-color);
+}
+
+.navbar_name .name:hover {
+  animation-duration: 4s;
+  animation-name: rainbowName;
+  animation-iteration-count: infinite;
 }
 
 .navbar_name i { /* Logo */
@@ -177,6 +195,7 @@ img {
 .chat:hover .overlay,
 .maze:hover .overlay {
   width: 100%;
+  animation: fadein 1s linear 1 normal forwards;
 }
 
 .overlay {
@@ -188,6 +207,11 @@ img {
   width: 0;
   height: 100%;
   transition: 1s ease;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .text {
