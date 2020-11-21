@@ -154,7 +154,7 @@ img {
   line-height: 1.6;
   padding-top: 150px;
   padding-left: 10px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .contact_paragraph {
