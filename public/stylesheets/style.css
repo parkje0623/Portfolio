@@ -183,11 +183,11 @@ img {
   text-align: center;
 }
 
-.images .android, .backpack, .puzzle, .maze, .portfolio, .chat {
+.images .ZombieSurvival, .backpack, .CrossTheRoad, .maze, .portfolio, .chat {
   display: inline-block;
 }
 
-.android, .backpack, .puzzle, .maze, .portfolio, .chat {
+.ZombieSurvival, .backpack, .CrossTheRoad, .maze, .portfolio, .chat {
   margin: 10px;
   position: relative;
   width: auto;
@@ -195,10 +195,10 @@ img {
 }
 
 /* Image hovers, all images here */
-.android:hover .overlay,
+.ZombieSurvival:hover .overlay,
 .backpack:hover .overlay,
 .portfolio:hover .overlay,
-.puzzle:hover .overlay,
+.CrossTheRoad:hover .overlay,
 .chat:hover .overlay,
 .maze:hover .overlay {
   width: 100%;
